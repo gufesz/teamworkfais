@@ -5,7 +5,7 @@
 }
 
 body {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 #preloader {
@@ -152,3 +152,53 @@ a{
     text-decoration: none;
 }
 
+.boobs {
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  
+}
+
+
+.gombto {
+  border: none;
+}
+
+.valasszgomb {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 15vw;
+  height: 6vh;
+  border-radius: 15px;
+}
+
+.csakize {
+    background-color: none;
+}
+
+.kutya {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  height: 25vh;
+  width: 15vw;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  display: inline-block;
+  border-radius: 105px;
+  padding-right: 10px;
+}
+
+.contcont {
+  background-color: black;
+  width: 500px;
+}
